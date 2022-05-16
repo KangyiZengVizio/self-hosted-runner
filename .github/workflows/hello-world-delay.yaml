@@ -23,7 +23,7 @@ jobs:
         run: echo Hello, world!
         
       - name: Run a one-line script sleep
-        run: echo sleep for 4 mins & sleep 2m
+        run: echo sleep for 10 mins & sleep 10m
       # Runs a single command using the runners shell
       - name: Hello from Docker
         run: docker run hello-world
